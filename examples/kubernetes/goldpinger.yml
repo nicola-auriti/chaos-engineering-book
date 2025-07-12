@@ -19,7 +19,7 @@ spec:
       serviceAccount: "goldpinger-serviceaccount"
       containers:
       - name: goldpinger
-        image: "docker.io/bloomberg/goldpinger:v3.0.0"
+        image: "docker.io/bloomberg/goldpinger:3.10.2"
         env:
         - name: REFRESH_INTERVAL
           value: "2"
